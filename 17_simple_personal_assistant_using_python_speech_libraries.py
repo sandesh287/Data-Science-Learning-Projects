@@ -1,7 +1,9 @@
 # 17. Simple Personal Assistant using Python Speech Libraries
 # pip install SpeechRecognition
-# pip install pyttsx3==2.90
 # pip install pyaudio
+# IMPORTANT:
+# pyttsx3 > 2.90 has issues on Windows (speaks only once).
+# Use: pip install pyttsx3==2.90
 
 
 
