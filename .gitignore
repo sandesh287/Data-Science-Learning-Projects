@@ -4,3 +4,4 @@ env/
 .venv/
 dataset/
 test_set/
+saved_models/
