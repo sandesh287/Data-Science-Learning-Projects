@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 
 # Load the dataset and split it into training and testing sets
-data = pd.read_csv('spam.csv')
+data = pd.read_csv('dataset/4_spam_not_spam_email/spam.csv')
 X = data.drop('spam', axis=1)
 y = data['spam']
 
